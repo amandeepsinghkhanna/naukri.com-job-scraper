@@ -1,0 +1,13 @@
+{
+    "web-driver-path" : "chromedriver.exe",
+    "scrape-url" : "https://www.naukri.com/data-scientist-jobs-in-bangalore?k=data%20scientist&l=bangalore&jobAge=1&experience=1",
+    "xpaths" : {
+        "job-title" : "//a[@class='title fw500 ellipsis']",
+        "company-title" : "//div[@class='mt-7 companyInfo subheading lh16']//a[@class='subTitle ellipsis fleft']",
+        "experience" : "//li[@class='fleft grey-text br2 placeHolderLi experience']//span[@class='ellipsis fleft fs12 lh16']",
+        "salary" : "//li[@class='fleft grey-text br2 placeHolderLi salary']//span[@class='ellipsis fleft fs12 lh16']",
+        "job-description": "//div[@class='job-description fs12 grey-text']",
+        "next-button" : "//span[contains(text(),'Next')]"
+    }
+}
+
